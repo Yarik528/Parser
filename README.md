@@ -43,13 +43,12 @@ Termux(Android):
 1. Установите Python:
 	pkg update 
 	pkg install python
+	pkg install requests beautifulsoup4 colorama
 2. Клонируйте проект:
 	pkg install git
 	git clone https://github.com/Yarik528/Parser.git
 	cd Parser
-3. Установите зависимости:
-	pip install -r requirements.txt
-4. Готово!
+3. Готово!
 
 	Использование: 
 	python scraper.py --url <URL> --search "<текст для поиска>" [опциональные аргументы]
