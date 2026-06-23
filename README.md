@@ -43,7 +43,7 @@ Termux(Android):
 1. Установите Python:
 	pkg update 
 	pkg install python
-	pkg install requests beautifulsoup4 colorama
+	pip install requests beautifulsoup4 colorama
 2. Клонируйте проект:
 	pkg install git
 	git clone https://github.com/Yarik528/Parser.git
